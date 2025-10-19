@@ -18,6 +18,11 @@ are set to question 1, so responses: a, b, c, d should be set to response 1, in 
 20 separate questions to use, simply remove some of the key-value pairs in both the <questions> dictionary and the 
 <responses> dictionary. You will also need to change the <num_questions> variable in lines 235 and 253 of the main.py
 file to match the number of questions your test and in the total number of tests, respectively.
+
+It's probable best to duplicate the Test_Template.py file and use the new file to create your test, so that you can 
+still have a template file. Also, in the methods 'random_test' and 'set_test', the actual .py files for the test 
+being used is hard-coded, so you will have to change that as well. It's not a difficult change, though, as you'll 
+just have to change Test_n._attribute_ to your_test_name._attribute_.
 ---
 ## Inputs
 
@@ -49,5 +54,6 @@ and I will see what I can do. If you want me to add something specific, type 'Re
 it is not an internal bug, but something you want to see added. Note that bugs will take priority, and not all 
 requests will be added.
 ---
+
 
 #### Python version 3.11
