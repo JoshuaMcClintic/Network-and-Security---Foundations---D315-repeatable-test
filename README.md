@@ -11,7 +11,9 @@ can redo as many times as you want. It also jumbles the answers for any given qu
 answers that the original question did not include in its multiple choice section. Also, all questions will be 
 multiple choice. I will not be adding open answer. If you want that, either add it yourself or find a different 
 script.
+
 ---
+
 Included in the files is a Test_Template.py file that you can use to create your own test questions, if you want. 
 Just keep in mind that, for each set of answers, the response _has to_ be in the same order (i.e. answers: a, b, c, d
 are set to question 1, so responses: a, b, c, d should be set to response 1, in the same order). If you do not have 
@@ -25,6 +27,7 @@ being used is hard-coded, so you will have to change that as well. It's not a di
 just have to change Test_n._attribute_ to your_test_name._attribute_.
 
 ---
+
 ## Inputs
 
 On running the main.py file, you will be asked two questions to set up the quiz: 
@@ -33,7 +36,9 @@ On running the main.py file, you will be asked two questions to set up the quiz:
 quizzed on, and the second determines whether they will be in a random order or the order given in the original test
 section in the course material. Answers to individual questions will always be jumbled, since I've already wasted 
 enough time on this. You can always type 'exit' to exit the test.
+
 ---
+
 ## Outputs
 
 Output is the question and set of answers. After the user gives a response, the program will output a reply, saying 
@@ -48,14 +53,17 @@ question you just got correct, as well as the new question number, like you see 
 If the question is incorrect, you will be asked the same question, and the same answer order.
 
 ---
+
 ## Bugs and glitches
 
 If you encounter something that prevents the script from running, please let me know in the issues section of GitHub, 
 and I will see what I can do. If you want me to add something specific, type 'Request' or some other signifier that 
 it is not an internal bug, but something you want to see added. Note that bugs will take priority, and not all 
 requests will be added.
+
 ---
 
 
 #### Python version 3.11
+
 
