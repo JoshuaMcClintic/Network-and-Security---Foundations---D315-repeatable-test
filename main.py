@@ -116,6 +116,9 @@ def random_test(test_num: str):
 
             else:
                 print('Please make a selection.')
+    # Prevent question counter from increasing when trying used questions
+    else:
+        random_test(test_num)
 
 
 def set_test(test_num: str):
@@ -266,3 +269,4 @@ else:
             cur_quest += 1
     else:
         print('No selection made. Aborting')
+
